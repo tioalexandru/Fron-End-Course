@@ -1,10 +1,13 @@
 #main-header {
   border-bottom: 4px solid #000;
+  position:fixed;
+  background-color: rgba(255,255,255,.8);
+  width:100%;
 }
 body {
   font-family:monospace;
   font-weight: 300 !important; 
-  background: rgb(156, 246, 216);
+  background: rgb(255, 255, 255);
 }
 body h1  {
   font-weight: 400;
@@ -54,4 +57,34 @@ p {
 }
 h3 {
   text-align: center;
+}
+#site-title {
+  text-shadow: 2px 2px 10px #000;
+}
+a:hover {
+  color:crimson;
+}
+.my-input {
+  display:block;
+  width: 90%;
+  margin: 10px;
+  padding:10px 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.my-input:focus {
+  background-color: rgb(165, 255, 240);
+  color: aquamarine;
+  outline:none;
+  border:1px solid black;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+article:active {
+  opacity: .6;
+}
+/*pseudo states : focus, active, hover*/
+.article-image {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }

@@ -1,6 +1,6 @@
 #main-header {
   border-bottom: 4px solid #000;
-  position:fixed;
+  position:relative;
   background-color: rgba(255,255,255,.8);
   width:100%;
 }
@@ -12,6 +12,7 @@ body {
 body h1  {
   font-weight: 400;
   margin: 20px, 30px;
+  text-align: center;
 }
 #top-stories  {
   width: 1000px ;
@@ -53,7 +54,7 @@ a {
 }
 p {
   word-spacing: .5px;
-  text-align: center;
+  
 }
 h3 {
   text-align: center;
@@ -87,4 +88,10 @@ article:active {
 .article-image {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+#footer-terms{
+  text-align: center;
+}
+#terms-of-service:hover {
+  color:aquamarine; !important
 }
